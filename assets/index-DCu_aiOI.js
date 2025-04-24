@@ -369,7 +369,7 @@ Please change the parent <Route path="${L}"> to <Route path="${L==="/"?"*":`${L}
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
       border-color 0.15s ease-in-out;
   }
-`;function lv(){const{homeRef:n,show:r}=Au();return U.jsx(Iy,{ref:n,children:U.jsxs(tv,{children:[U.jsx(ev,{children:U.jsx("img",{src:Xy})}),U.jsx("h1",{children:"Adrian Fajardo"}),U.jsx("p",{children:"Front-End Developer"}),U.jsx($y,{}),U.jsxs(av,{href:"https://drive.google.com/file/d/1a1eNn5rC7sZlGhYqsx1bH1IgrnCB3fGN/view?usp=drive_link",target:"_blank",rel:"noopener noreferrer","aria-label":"Download Adrian Fajardo's CV",children:["Download CV",U.jsx("span",{children:U.jsx(Yy,{})})]}),r&&U.jsx(Fy,{})]})})}const nv=Kg`
+`;function lv(){const{homeRef:n,show:r}=Au();return U.jsx(Iy,{ref:n,children:U.jsxs(tv,{children:[U.jsx(ev,{children:U.jsx("img",{src:Xy})}),U.jsx("h1",{children:"Adrian Fajardo"}),U.jsx("p",{children:"Front-End Developer"}),U.jsx($y,{}),U.jsxs(av,{href:"https://drive.google.com/file/d/1zLoJ9OW4rFmbO966j0KB6azHezS4LZxa/view?usp=drive_link",target:"_blank",rel:"noopener noreferrer","aria-label":"Download Adrian Fajardo's Resume",children:["Download CV",U.jsx("span",{children:U.jsx(Yy,{})})]}),r&&U.jsx(Fy,{})]})})}const nv=Kg`
   0% {
     transform: scale(0) rotate(0deg);
     opacity: 0;
