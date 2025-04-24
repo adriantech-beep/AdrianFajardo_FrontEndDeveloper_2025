@@ -39,6 +39,8 @@ export const projects = [
     sourceCode:
       "https://github.com/adriantech-beep/repair-management-system.git",
     labelSource: "Visit PMMS repository source code on www.Github.com",
+    description:
+      "This project was inspired by The Ultimate React course on Udemy by Jonas Schmedtmann, where I learned key concepts related on design using Styled-Components, data flow using React-Query and handling logic and back-end services using Supabase. While I drew inspiration from the original project, I customized it by adding some features and replacing some concepts to suit my needs and showcase my skills.",
   },
 
   {
@@ -52,6 +54,8 @@ export const projects = [
 
     sourceCode: "https://github.com/adriantech-beep/shopsphere-ecommerce.git",
     labelSource: "Visit Shopsphere repository source code on www.Github.com",
+    description:
+      "This project is a requirement for the Uplift Code Camp bootcamp. It showcases my skills and understanding of how React works, state management using the Context API, and styling with module.css.",
   },
   {
     name: "Todo app",

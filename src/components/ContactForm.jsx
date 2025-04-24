@@ -101,11 +101,18 @@ const ContactForm = forwardRef((props, ref) => {
         </StyledHeader>
         <div>
           <label htmlFor="name"></label>
-          <input type="text" name="name" required placeholder="Your name *" />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            required
+            placeholder="Your name *"
+          />
           <label htmlFor="email"></label>
           <input
             type="email"
             name="email"
+            id="email"
             required
             placeholder="Your Email/Phone *"
           />
