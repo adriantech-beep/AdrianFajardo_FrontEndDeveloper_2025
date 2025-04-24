@@ -37,6 +37,47 @@ export const AboutSection = styled(RevealSection)`
   background-color: #061427;
 `;
 
+export const ContactFormSection = styled(RevealSection)`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1em;
+  height: 100vh;
+
+  form {
+    width: 100%;
+    max-width: 565px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.5em;
+    margin-top: 0.5em;
+  }
+  input {
+    height: 55px;
+    outline: none;
+    padding: 0.5em;
+    font-family: "Lato", sans-serif;
+    border-radius: 5px;
+    border-style: none;
+  }
+  textarea {
+    outline: none;
+    padding: 0.5em;
+    font-family: "Lato", sans-serif;
+    border-radius: 5px;
+    border-style: none;
+  }
+`;
+
 // Container for section content
 export const SectionContainer = styled.div`
   width: 100%;

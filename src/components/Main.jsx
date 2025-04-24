@@ -1,13 +1,14 @@
 import { useScroll } from "../contexts/ScrollContext";
+import { BsDownload } from "react-icons/bs";
 import styled from "styled-components";
 import ProfileImage from "../assets/adrianF.png";
 import SocialGroup from "../components/SocialGroup";
 import MobileNavigation from "./MobileNavigation";
-import { BsDownload } from "react-icons/bs";
+import BackgroundImage from "../assets/image/bg-dark.jpg";
 
 const StyledMain = styled.main`
   height: 100vh;
-  background-image: url("../src/assets/bg-dark.jpg");
+  background-image: url(${BackgroundImage});
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -97,7 +98,12 @@ function Main() {
         <p>Front-End Developer</p>
         <SocialGroup />
 
-        <StyledCvLink>
+        <StyledCvLink
+          href="https://drive.google.com/file/d/1a1eNn5rC7sZlGhYqsx1bH1IgrnCB3fGN/view?usp=drive_link"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Download Adrian Fajardo's CV"
+        >
           Download CV
           <span>
             <BsDownload />

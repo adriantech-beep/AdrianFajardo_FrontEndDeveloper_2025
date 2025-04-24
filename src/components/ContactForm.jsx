@@ -1,49 +1,10 @@
-import React, { useRef } from "react";
+import React, { forwardRef, useRef } from "react";
 import emailjs from "emailjs-com";
 import toast from "react-hot-toast";
 import styled from "styled-components";
 import { BsEnvelopeArrowUp } from "react-icons/bs";
-
-const StyledFormContainer = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding: 1em;
-  height: 100vh;
-
-  form {
-    width: 100%;
-    max-width: 565px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-  }
-  div {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 0.5em;
-    margin-top: 0.5em;
-  }
-  input {
-    height: 55px;
-    outline: none;
-    padding: 0.5em;
-    font-family: "Lato", sans-serif;
-    border-radius: 5px;
-    border-style: none;
-  }
-  textarea {
-    outline: none;
-    padding: 0.5em;
-    font-family: "Lato", sans-serif;
-    border-radius: 5px;
-    border-style: none;
-  }
-`;
+import { useRevealSection } from "../hooks/useRevealSection";
+import { ContactFormSection } from "./StyledSection";
 
 const StyledHeader = styled.div`
   display: flex;
@@ -91,7 +52,9 @@ const StyledButton = styled.button`
   }
 `;
 
-const ContactForm = () => {
+const ContactForm = forwardRef((props, ref) => {
+  const { ref: revealRef, isVisible } = useRevealSection();
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -119,7 +82,13 @@ const ContactForm = () => {
   };
 
   return (
-    <StyledFormContainer>
+    <ContactFormSection
+      ref={(element) => {
+        if (ref) ref.current = element;
+        revealRef.current = element;
+      }}
+      isVisible={isVisible}
+    >
       <form ref={form} onSubmit={sendEmail}>
         <StyledHeader>
           <h1>Contact Me</h1>
@@ -157,8 +126,8 @@ const ContactForm = () => {
           </StyledButton>
         </div>
       </form>
-    </StyledFormContainer>
+    </ContactFormSection>
   );
-};
+});
 
 export default ContactForm;
