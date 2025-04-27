@@ -7,7 +7,7 @@ import { SkillsSection } from "./StyledSection";
 
 const Techologies = styled.div`
   width: 100%;
-  max-width: 990px;
+  max-width: 1028px;
   display: flex;
 
   gap: 0.5rem;
@@ -17,8 +17,13 @@ const Techologies = styled.div`
     width: 100%;
     max-width: 650px;
     display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0.5em;
+  }
+
+  @media (max-width: 448px) {
+    display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 1em;
   }
 `;
 

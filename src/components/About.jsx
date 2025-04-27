@@ -19,7 +19,7 @@ const StyledSection = styled.div`
   }
 
   @media (max-width: 768px) {
-    padding: 1rem 2.5rem;
+    padding: 1rem;
   }
 `;
 

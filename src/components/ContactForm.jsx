@@ -27,7 +27,7 @@ const StyledHeader = styled.div`
 `;
 
 const StyledButton = styled.button`
-  padding: 0.5em 0.7em;
+  padding: 0.8em 1.2rem;
   margin: 5px;
   text-decoration: none;
   font-family: Arial, sans-serif;
