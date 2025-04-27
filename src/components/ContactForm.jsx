@@ -70,7 +70,7 @@ const ContactForm = forwardRef((props, ref) => {
       .then(
         (result) => {
           console.log("Message sent successfully!", result.text);
-          toast.success("Message sent successfully!");
+          toast.success("Message sent successfully! Thank You😊");
         },
         (error) => {
           console.error("Error sending message:", error.text);
