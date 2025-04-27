@@ -19,6 +19,7 @@ import GITicon from "../assets/icons/git.svg";
 import JavaScriptcertJerome from "../assets/certificates/JavaScriptcert1.png";
 import JavaScriptcertJonas from "../assets/certificates/JavaScriptcert2.png";
 import UpliftCert from "../assets/certificates/uplift-cert.png";
+import Globecert from "../assets/certificates/globe-cert.png";
 
 export const projects = [
   {
@@ -162,5 +163,9 @@ export const certificates = [
   {
     name: "JavaScript Course Jonas",
     certificateImages: JavaScriptcertJonas,
+  },
+  {
+    name: "Globe Certifate of participation",
+    certificateImages: Globecert,
   },
 ];
