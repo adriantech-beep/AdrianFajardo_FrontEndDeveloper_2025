@@ -96,6 +96,7 @@ function Main() {
         </ProfileImageBox>
         <h1>Adrian Fajardo</h1>
         <p>Front-End Developer</p>
+
         <SocialGroup />
 
         <StyledCvLink
