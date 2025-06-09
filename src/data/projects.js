@@ -23,25 +23,33 @@ import Globecert from "../assets/certificates/globe-cert.png";
 
 export const projects = [
   {
+<<<<<<< HEAD
     name: "Repair-Management-System",
+=======
+    name: "Repair-Management",
+>>>>>>> d505c125335b0c8fd5e5332e79694ca7c7d1b629
     image: Mockup1,
     details:
-      "A repair management system developed with a solution designed to streamline the process of managing repair services",
+      "🚧 In Progress – A repair management system designed to streamline the process of managing repair services.",
     technologies: [
       "HTML",
       "Styled-Components",
-      "REACT",
-      "React-query",
+      "React",
+      "React Query",
       "Supabase",
     ],
     livesiteURL:
       "https://drive.google.com/file/d/1AVzSKirngx_qn0Vk22lDUaRz5pEsLuxE/view?usp=drive_link",
+<<<<<<< HEAD
     labelURL: "Visit Repair-Management-System video demo on google drive",
+=======
+    labelURL: "Watch Demo Video",
+>>>>>>> d505c125335b0c8fd5e5332e79694ca7c7d1b629
     sourceCode:
       "https://github.com/adriantech-beep/repair-management-system.git",
-    labelSource: "Visit PMMS repository source code on www.Github.com",
+    labelSource: "View Source on GitHub",
     description:
-      "This project was inspired by The Ultimate React course on Udemy by Jonas Schmedtmann, where I learned key concepts related on design using Styled-Components, data flow using React-Query and handling logic and back-end services using Supabase. While I drew inspiration from the original project, I customized it by adding some features and replacing some concepts to suit my needs and showcase my skills.",
+      "This project was inspired by the Ultimate React course by Jonas Schmedtmann on Udemy. I learned key concepts such as styling with Styled-Components, data fetching with React Query, and backend integration using Supabase. While the foundation was guided by the course, I customized the project by adding new features and modifying others to reflect real-world use cases and demonstrate my development skills.",
   },
 
   {
