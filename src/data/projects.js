@@ -23,11 +23,7 @@ import Globecert from "../assets/certificates/globe-cert.png";
 
 export const projects = [
   {
-<<<<<<< HEAD
     name: "Repair-Management-System",
-=======
-    name: "Repair-Management",
->>>>>>> d505c125335b0c8fd5e5332e79694ca7c7d1b629
     image: Mockup1,
     details:
       "🚧 In Progress – A repair management system designed to streamline the process of managing repair services.",
@@ -40,11 +36,7 @@ export const projects = [
     ],
     livesiteURL:
       "https://drive.google.com/file/d/1AVzSKirngx_qn0Vk22lDUaRz5pEsLuxE/view?usp=drive_link",
-<<<<<<< HEAD
     labelURL: "Visit Repair-Management-System video demo on google drive",
-=======
-    labelURL: "Watch Demo Video",
->>>>>>> d505c125335b0c8fd5e5332e79694ca7c7d1b629
     sourceCode:
       "https://github.com/adriantech-beep/repair-management-system.git",
     labelSource: "View Source on GitHub",
