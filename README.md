@@ -1,4 +1,4 @@
-# 🌐 Developer Portfolio – Adrian Tech
+# 🌐 Developer Portfolio – AdrianFajardo
 
 Welcome to my personal developer portfolio! This project showcases my work, ongoing projects, and technical skillset. It's designed to be clean, responsive, and easy to navigate.
 
