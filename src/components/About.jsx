@@ -3,6 +3,7 @@ import { useRevealSection } from "../hooks/useRevealSection";
 import { AboutSection } from "./StyledSection";
 import styled from "styled-components";
 
+// Inner content styling
 const StyledSection = styled.div`
   max-width: 850px;
   min-height: 240px;
@@ -13,9 +14,16 @@ const StyledSection = styled.div`
   justify-content: center;
   padding: 2rem 4rem;
   text-align: center;
+  color: white;
 
   h1 {
     font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.6;
   }
 
   @media (max-width: 768px) {
@@ -40,13 +48,13 @@ const About = forwardRef((props, ref) => {
           front-end web development.
         </h1>
         <p>
-          As a lifelong learner,I've always been fascinated by the intersection
-          of technology and creativity.My background as a mobile phone repair
+          As a lifelong learner, I've always been fascinated by the intersection
+          of technology and creativity. My background as a mobile phone repair
           technician has equipped me with a solid understanding of hardware and
-          software.I'm excited to apply this knowledge and my dedication to
-          continous learning to embark on a career as a web developer.I'm eager
-          to contribute to innovative projects and collaborate with talented
-          teams to build exceptional digital experience.
+          software. I'm excited to apply this knowledge and my dedication to
+          continuous learning to embark on a career as a web developer. I'm
+          eager to contribute to innovative projects and collaborate with
+          talented teams to build exceptional digital experiences.
         </p>
       </StyledSection>
     </AboutSection>

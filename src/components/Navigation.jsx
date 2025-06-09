@@ -1,4 +1,3 @@
-import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import { useScroll } from "../contexts/ScrollContext";
 import { FaBars } from "react-icons/fa";

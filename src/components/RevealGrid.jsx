@@ -24,7 +24,9 @@ export const Grid = styled.div`
 `;
 
 // Base grid item with common styles
-const BaseGridItem = styled.div`
+const BaseGridItem = styled.div.withConfig({
+  shouldForwardProp: (prop) => prop !== "isVisible" && prop !== "index",
+})`
   transition: transform 1.2s ease-out, opacity 1.2s ease-out;
   opacity: ${({ isVisible }) => (isVisible ? 1 : 0)};
   transition-delay: ${({ index }) => `${index * 0.1}s`};

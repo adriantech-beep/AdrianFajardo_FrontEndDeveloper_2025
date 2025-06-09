@@ -6,7 +6,7 @@ import SocialGroup from "../components/SocialGroup";
 import MobileNavigation from "./MobileNavigation";
 import BackgroundImage from "../assets/image/bg-dark.jpg";
 
-const StyledMain = styled.main`
+const StyledMain = styled.div`
   height: 100vh;
   background-image: url(${BackgroundImage});
   background-position: center;

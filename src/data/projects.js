@@ -23,7 +23,7 @@ import Globecert from "../assets/certificates/globe-cert.png";
 
 export const projects = [
   {
-    name: "PMMS",
+    name: "Repair-Management-System",
     image: Mockup1,
     details:
       "A repair management system developed with a solution designed to streamline the process of managing repair services",
@@ -35,8 +35,8 @@ export const projects = [
       "Supabase",
     ],
     livesiteURL:
-      "https://adriantech-beep.github.io/repair-management-system/#/dashboard",
-    labelURL: "Visit PMMS Website",
+      "https://drive.google.com/file/d/1AVzSKirngx_qn0Vk22lDUaRz5pEsLuxE/view?usp=drive_link",
+    labelURL: "Visit Repair-Management-System video demo on google drive",
     sourceCode:
       "https://github.com/adriantech-beep/repair-management-system.git",
     labelSource: "Visit PMMS repository source code on www.Github.com",

@@ -17,7 +17,12 @@ export const ProjectsSection = styled(RevealSection)`
   padding: 4rem 0;
 `;
 
-export const SkillsSection = styled(RevealSection)`
+export const SkillsSection = styled.section.withConfig({
+  shouldForwardProp: (prop) => prop !== "isVisible",
+})`
+  opacity: ${(props) => (props.isVisible ? 1 : 0)};
+  transform: translateY(${(props) => (props.isVisible ? "0" : "40px")});
+  transition: all 0.6s ease-out;
   width: 100%;
   min-height: 420px;
   display: flex;
@@ -29,53 +34,35 @@ export const SkillsSection = styled(RevealSection)`
   margin-top: 2rem;
 `;
 
-export const AboutSection = styled(RevealSection)`
+export const AboutSection = styled.section.withConfig({
+  shouldForwardProp: (prop) => prop !== "isVisible",
+})`
+  opacity: ${(props) => (props.isVisible ? 1 : 0)};
+  transform: translateY(${(props) => (props.isVisible ? "0" : "40px")});
+  transition: all 0.6s ease-out;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 3rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 4rem 0;
-  background-color: #061427;
 `;
 
-export const ContactFormSection = styled(RevealSection)`
+export const ContactFormSection = styled.section.withConfig({
+  shouldForwardProp: (prop) => prop !== "isVisible",
+})`
+  opacity: ${(props) => (props.isVisible ? 1 : 0)};
+  transform: translateY(${(props) => (props.isVisible ? "0" : "40px")});
+  transition: all 0.6s ease-out;
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   padding: 1em;
-  height: 100vh;
-
-  form {
-    width: 100%;
-    max-width: 565px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-  }
-  div {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 0.5em;
-    margin-top: 0.5em;
-  }
-  input {
-    height: 55px;
-    outline: none;
-    padding: 0.5em;
-    font-family: "Lato", sans-serif;
-    border-radius: 5px;
-    border-style: none;
-  }
-  textarea {
-    outline: none;
-    padding: 0.5em;
-    font-family: "Lato", sans-serif;
-    border-radius: 5px;
-    border-style: none;
-  }
 `;
 
 // Container for section content

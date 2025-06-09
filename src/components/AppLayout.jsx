@@ -13,16 +13,25 @@ const StyledAppLayout = styled.div`
   background-color: #061427;
   overflow: hidden;
 `;
+const MainContainer = styled.main`
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  width: 100%;
+`;
 function AppLayout() {
   const { aboutRef } = useScroll();
   return (
     <StyledAppLayout>
       <Navigation />
-      <Main />
-      <About ref={aboutRef} />
-      <Projects />
-      <Skills />
-      <ContactForm />
+      <MainContainer>
+        <Main />
+        <About ref={aboutRef} />
+        <Projects />
+        <Skills />
+        <ContactForm />
+      </MainContainer>
       <Footer />
     </StyledAppLayout>
   );

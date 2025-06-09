@@ -1,8 +1,9 @@
 import { HashRouter, Route, Routes } from "react-router-dom";
+import { Toaster } from "react-hot-toast";
+import { ScrollProvider } from "./contexts/ScrollContext";
+
 import Certificate from "./pages/Certificate";
 import AppLayout from "./components/AppLayout";
-import { ScrollProvider } from "./contexts/ScrollContext";
-import { Toaster } from "react-hot-toast";
 
 function App() {
   return (

@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import ROCKETicon from "../assets/image/rocket.svg";
 
 const StyledFooter = styled.section`
   height: 96px;
