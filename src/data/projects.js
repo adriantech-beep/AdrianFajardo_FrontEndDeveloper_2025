@@ -34,9 +34,8 @@ export const projects = [
       "React Query",
       "Supabase",
     ],
-    livesiteURL:
-      "https://drive.google.com/file/d/1AVzSKirngx_qn0Vk22lDUaRz5pEsLuxE/view?usp=drive_link",
-    labelURL: "Watch Repair Management System video demo",
+    livesiteURL: "https://repair-management-system.vercel.app/",
+    labelURL: "Repair Management System live demo link",
     sourceCode:
       "https://github.com/adriantech-beep/repair-management-system.git",
     labelSource: "View Source on GitHub",
