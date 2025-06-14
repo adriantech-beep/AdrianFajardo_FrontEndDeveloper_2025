@@ -40,15 +40,21 @@ const StyledMobileNavigation = styled.div`
 `;
 
 function MobileNavigation() {
-  const { scrollToProject, scrollToHome, scrollToAbout } = useScroll();
+  const { scrollToProject, scrollToHome, scrollToAbout, setShow } = useScroll();
+
+  const handleClick = (scrollFn) => {
+    scrollFn();
+    setShow(false);
+  };
+
   return (
     <StyledMobileNavigation>
-      <li onClick={scrollToHome}>Home</li>
-      <li onClick={scrollToProject}>Projects</li>
-      <li>
+      <li onClick={() => handleClick(scrollToHome)}>Home</li>
+      <li onClick={() => handleClick(scrollToProject)}>Projects</li>
+      <li onClick={() => setShow(false)}>
         <StyledNavLink to="/certificates">Certificates</StyledNavLink>
       </li>
-      <li onClick={scrollToAbout}>About</li>
+      <li onClick={() => handleClick(scrollToAbout)}>About</li>
     </StyledMobileNavigation>
   );
 }
