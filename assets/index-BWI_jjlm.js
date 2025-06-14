@@ -459,7 +459,7 @@ to {
   @media (min-width: 768px) {
     display: none;
   }
-`;function Qv(){const{scrollToProject:n,scrollToHome:r,scrollToAbout:c}=Au();return U.jsxs(Vv,{children:[U.jsx("li",{onClick:r,children:"Home"}),U.jsx("li",{onClick:n,children:"Projects"}),U.jsx("li",{children:U.jsx(V2,{to:"/certificates",children:"Certificates"})}),U.jsx("li",{onClick:c,children:"About"})]})}const Zv="/AdrianFajardo_FrontEndDeveloper_2025/assets/bg-dark-B3XxdUNT.jpg",Kv=nt.div`
+`;function Qv(){const{scrollToProject:n,scrollToHome:r,scrollToAbout:c,setShow:o}=Au(),s=d=>{d(),o(!1)};return U.jsxs(Vv,{children:[U.jsx("li",{onClick:()=>s(r),children:"Home"}),U.jsx("li",{onClick:()=>s(n),children:"Projects"}),U.jsx("li",{onClick:()=>o(!1),children:U.jsx(V2,{to:"/certificates",children:"Certificates"})}),U.jsx("li",{onClick:()=>s(c),children:"About"})]})}const Zv="/AdrianFajardo_FrontEndDeveloper_2025/assets/bg-dark-B3XxdUNT.jpg",Kv=nt.div`
   height: 100vh;
   background-image: url(${Zv});
   background-position: center;
