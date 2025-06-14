@@ -10,15 +10,17 @@ import { useState, useEffect } from "react";
 export const Grid = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 1em;
-
   gap: 1rem;
+  padding: 1em;
+  justify-items: center; /* Center grid items horizontally */
+  align-items: center; /* Center grid items vertically (if height allows) */
 
   @media (max-width: 990px) {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0;
+    justify-content: center; /* Also center on mobile */
+    margin: 0 auto;
     padding: 0;
   }
 `;

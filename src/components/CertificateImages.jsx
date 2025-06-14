@@ -10,14 +10,23 @@ const StyledCertificateImages = styled.li`
   border-radius: 5px;
 `;
 
+const StyledDescriptions = styled.div`
+  padding: 2rem;
+`;
+
 function CertificateImages({ certificate }) {
-  const { certificateImages, name } = certificate;
+  const { certificateImages, name, description } = certificate;
   return (
-    <StyledCertificateImages>
-      <ImageContainer>
-        <img src={certificateImages} alt={`${name} certificate image`} />
-      </ImageContainer>
-    </StyledCertificateImages>
+    <>
+      <StyledCertificateImages>
+        <ImageContainer>
+          <img src={certificateImages} alt={`${name} certificate image`} />
+        </ImageContainer>
+      </StyledCertificateImages>
+      <StyledDescriptions>
+        <p>{description}</p>
+      </StyledDescriptions>
+    </>
   );
 }
 

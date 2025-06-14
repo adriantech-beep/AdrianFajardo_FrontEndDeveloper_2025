@@ -23,10 +23,10 @@ import Globecert from "../assets/certificates/globe-cert.png";
 
 export const projects = [
   {
-    name: "Repair-Management-System",
+    name: "Repair Management System",
     image: Mockup1,
     details:
-      "🚧 In Progress – A repair management system designed to streamline the process of managing repair services.",
+      "🚧 In Progress – A comprehensive repair service platform for tracking, updating, and managing client repair orders efficiently.",
     technologies: [
       "HTML",
       "Styled-Components",
@@ -36,74 +36,38 @@ export const projects = [
     ],
     livesiteURL:
       "https://drive.google.com/file/d/1AVzSKirngx_qn0Vk22lDUaRz5pEsLuxE/view?usp=drive_link",
-    labelURL: "Visit Repair-Management-System video demo on google drive",
+    labelURL: "Watch Repair Management System video demo",
     sourceCode:
       "https://github.com/adriantech-beep/repair-management-system.git",
     labelSource: "View Source on GitHub",
     description:
-      "This project was inspired by the Ultimate React course by Jonas Schmedtmann on Udemy. I learned key concepts such as styling with Styled-Components, data fetching with React Query, and backend integration using Supabase. While the foundation was guided by the course, I customized the project by adding new features and modifying others to reflect real-world use cases and demonstrate my development skills.",
+      "This full-stack project demonstrates my ability to build real-world applications using modern technologies like React Query and Supabase. I collaborated with senior developers to architect and implement key features such as user authentication, role-based access control, and dynamic order tracking. The application is designed with a modular, responsive layout to streamline operations for repair businesses and support scalable functionality.",
   },
-
   {
     name: "Shopsphere",
     image: Mockup2,
     details:
-      "An innovative e-commerce platform designed to provide users with a seamless shopping experience. Built using React, Context API, free APIs,  the project emphasizes modularity, scalability, and user-friendly design",
-    technologies: ["HTML", "CSS", "REACT", "Context-Api"],
+      "A scalable e-commerce web app with cart functionality, API-driven product listings, and a user-focused interface.",
+    technologies: ["HTML", "CSS", "React", "Context API"],
     livesiteURL: "https://adriantech-beep.github.io/shopsphere-ecommerce/",
     labelURL: "Visit Shopsphere Website",
-
     sourceCode: "https://github.com/adriantech-beep/shopsphere-ecommerce.git",
-    labelSource: "Visit Shopsphere repository source code on www.Github.com",
+    labelSource: "View Source on GitHub",
     description:
-      "This project is a requirement for the Uplift Code Camp bootcamp. It showcases my skills and understanding of how React works, state management using the Context API, and styling with module.css.",
+      "Shopsphere is a modular, component-driven e-commerce platform that I built to practice advanced state management using the Context API. The app includes dynamic product loading from third-party APIs, responsive design, and intuitive UX features like filtering and persistent cart state.",
   },
   {
-    name: "Todo app",
-    image: Mockup3,
-    details:
-      "This project is a solution to a coding challenge from the Frontend Mentor website, showcasing my understanding in JavaScript and Object-Oriented Programming (OOP) principles",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    livesiteURL: "https://adriantech-beep.github.io/todo-app/",
-    labelURL: "Visit Todo App Website",
-
-    sourceCode: "https://github.com/adriantech-beep/todo-app.git",
-    labelSource: "Visit Todo app repository source code on www.Github.com",
-  },
-  {
-    name: "Portfolio website",
-    image: Mockup4,
-    details:
-      "I created this portfolio website as part of the project requirements for the Uplift Code Camp bootcamp. It showcases my foundational skills in HTML, CSS, and JavaScript, applied to build an engaging and functional design.",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    livesiteURL: "https://adriantech-beep.github.io/adrian-portfolio/",
-    labelURL: "Visit Portfolio Website",
-    sourceCode: "https://github.com/adriantech-beep/adrian-portfolio.git",
-    labelSource:
-      "Visit Adrian Fajardo's Portfolio website repository source code on www.Github.com",
-  },
-  {
-    name: "Bubble Tea",
+    name: "Bubble Tea Ordering App",
     image: Mockup5,
     details:
-      "This is a straightforward website designed for ordering milk tea products. It was built using React and Tailwind CSS, incorporating essential state management functionality with Redux, and utilizing Supabase for back-end services.",
-    technologies: ["HTML", "Tailwind", "REACT", "Redux", "Supabase"],
+      "An end-to-end ordering system for milk tea products with state and data management integrated via Redux and Supabase.",
+    technologies: ["HTML", "Tailwind", "React", "Redux", "Supabase"],
     livesiteURL: "https://adriantech-beep.github.io/bubble-tea/",
-    labelURL: "Visit Bubble tea Website",
+    labelURL: "Visit Bubble Tea Ordering App",
     sourceCode: "https://github.com/adriantech-beep/bubble-tea.git",
-    labelSource: "Visit Bubble tea repository source code on www.Github.com",
-  },
-  {
-    name: "Quizz app",
-    image: Mockup6,
-    details:
-      "This project was developed as part of the bootcamp requirements for Uplift Code Camp. It demonstrates my grasp of Asynchronous JavaScript, showcasing practical applications of its principles in building dynamic functionality.",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    livesiteURL: "https://adriantech-beep.github.io/quizz-app-api/",
-    labelURL: "Visit Quizz app Website",
-
-    sourceCode: "https://github.com/adriantech-beep/quizz-app-api.git",
-    labelSource: "Visit Quizz app repository source code on www.Github.com",
+    labelSource: "View Source on GitHub",
+    description:
+      "Built with a focus on user flow and modern UI, this app allows users to browse, customize, and order milk tea products. I used Redux for scalable state handling and Supabase for managing product data and order submissions. The app is optimized for responsiveness and clear navigation.",
   },
 ];
 
@@ -154,18 +118,26 @@ export const certificates = [
   {
     name: "Uplift Code Camp",
     certificateImages: UpliftCert,
+    description:
+      "Completed a structured 21-week front-end web development bootcamp focused on JavaScript, React, and Git. Built real-world applications using modern web technologies and collaborated in group projects simulating industry workflows.",
   },
   {
-    name: "JavaScript Course Jerome",
+    name: "JavaScript by Jerome B.",
     certificateImages: JavaScriptcertJerome,
+    description:
+      "Completed 71 hours of JavaScript-focused training including ES6+, asynchronous workflows, API consumption, modular architecture, and test-driven development. Applied learning through structured projects and challenges.",
   },
-
   {
-    name: "JavaScript Course Jonas",
+    name: "Ultimate JavaScript Mastery by Jonas Schmedtmann",
     certificateImages: JavaScriptcertJonas,
+
+    description:
+      "Covered foundational to advanced JavaScript topics including DOM manipulation, event handling, asynchronous programming, and object-oriented design patterns. Built multiple projects and challenges to apply each concept.",
   },
   {
-    name: "Globe Certifate of participation",
+    name: "Globe Certificate of Participation",
     certificateImages: Globecert,
+    description:
+      "Participated in Globe Telecom's tech workshop, gaining insights into cloud infrastructure, industry use cases, and developer best practices in the Philippine tech ecosystem.",
   },
 ];

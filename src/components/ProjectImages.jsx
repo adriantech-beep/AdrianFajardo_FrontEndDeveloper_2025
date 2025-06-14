@@ -102,6 +102,7 @@ function Project({ project }) {
     labelURL,
     sourceCode,
     labelSource,
+    description,
   } = project;
 
   return (
@@ -136,6 +137,7 @@ function Project({ project }) {
           </a>
         </div>
         <h3>{details}</h3>
+        <p>{description}</p>
         <div>
           <p>Tech stack:</p>
           {technologies.map((tech) => (
