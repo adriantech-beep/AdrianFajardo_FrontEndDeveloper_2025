@@ -8,6 +8,7 @@ import Navigation from "./Navigation";
 import Projects from "./Projects";
 import Skills from "./Skills";
 import ContactForm from "./ContactForm";
+import Form from "./Form";
 
 const StyledAppLayout = styled.div`
   background-color: #061427;
@@ -30,7 +31,8 @@ function AppLayout() {
         <About ref={aboutRef} />
         <Projects />
         <Skills />
-        <ContactForm />
+        {/* <ContactForm /> */}
+        <Form />
       </MainContainer>
       <Footer />
     </StyledAppLayout>
