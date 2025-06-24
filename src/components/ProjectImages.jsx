@@ -76,6 +76,13 @@ const Details = styled.div`
   }
 `;
 
+const StyledDescription = styled.div`
+  width: 100%;
+  height: 210px;
+  display: flex;
+  flex-direction: column;
+`;
+
 const StyledTech = styled.span`
   background-color: #f3f4f6;
   border-radius: 10px;
@@ -136,8 +143,11 @@ function Project({ project }) {
             </span>
           </a>
         </div>
-        <h3>{details}</h3>
-        <p>{description}</p>
+        <StyledDescription>
+          <h3>{details}</h3>
+          <p>{description}</p>
+        </StyledDescription>
+
         <div>
           <p>Tech stack:</p>
           {technologies.map((tech) => (

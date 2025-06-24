@@ -64,7 +64,7 @@ export const SlideFromTop = styled(BaseGridItem)`
 // Image container inside grid items
 export const ImageContainer = styled.div`
   width: 100%;
-  /* max-width: 780px; */
+  max-width: 780px;
 
   overflow: hidden;
 
