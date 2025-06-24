@@ -1,9 +1,7 @@
 import Mockup1 from "../assets/project-images/repair-management-system.png";
 import Mockup2 from "../assets/project-images/shopshere.png";
-import Mockup3 from "../assets/project-images/todo-app.png";
-import Mockup4 from "../assets/project-images/portfolio.png";
 import Mockup5 from "../assets/project-images/bubble-tea.png";
-import Mockup6 from "../assets/project-images/quizz-app.png";
+import Mockup3 from "../assets/project-images/todo-app.png";
 
 import HTMLicon from "../assets/icons/file-type-html.svg";
 import CSSicon from "../assets/icons/file-type-css.svg";
@@ -61,12 +59,25 @@ export const projects = [
     details:
       "An end-to-end ordering system for milk tea products with state and data management integrated via Redux and Supabase.",
     technologies: ["HTML", "Tailwind", "React", "Redux", "Supabase"],
-    livesiteURL: "https://adriantech-beep.github.io/bubble-tea/",
+    livesiteURL: "https://bubble-tea-brown.vercel.app/",
     labelURL: "Visit Bubble Tea Ordering App",
     sourceCode: "https://github.com/adriantech-beep/bubble-tea.git",
     labelSource: "View Source on GitHub",
     description:
       "Built with a focus on user flow and modern UI, this app allows users to browse, customize, and order milk tea products. I used Redux for scalable state handling and Supabase for managing product data and order submissions. The app is optimized for responsiveness and clear navigation.",
+  },
+  {
+    name: "Todo App",
+    image: Mockup3,
+    details:
+      "A simple yet powerful task management app built using Object-Oriented Programming principles in JavaScript, featuring persistent data storage and a clean, responsive interface.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    livesiteURL: "https://adriantech-beep.github.io/todo-app/",
+    labelURL: "Visit Todo App Live Site",
+    sourceCode: "https://github.com/adriantech-beep/todo-app.git",
+    labelSource: "View Source on GitHub",
+    description:
+      "This Todo App was developed with Object-Oriented Programming (OOP) principles to ensure maintainable and modular code. It enables users to add, edit, complete, and delete tasks efficiently. The app uses local storage for data persistence and features a responsive UI built with  CSS. Though simple in appearance, the core logic emphasizes class-based design patterns, offering a solid foundation for beginner-to-intermediate level projects.",
   },
 ];
 
