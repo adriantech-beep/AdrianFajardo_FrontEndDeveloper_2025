@@ -14,7 +14,12 @@ const StyledProjectImages = styled.li`
   background-color: #10233d;
   padding: 1em;
   border-radius: 5px;
+
+  @media (max-width: 579px) {
+    padding: 0.8em;
+  }
 `;
+
 const Details = styled.div`
   display: flex;
   flex-direction: column;
@@ -25,6 +30,7 @@ const Details = styled.div`
     align-items: center;
     gap: 1em;
     margin: 0.2em;
+    flex-wrap: wrap;
   }
 
   h3 {
@@ -34,23 +40,23 @@ const Details = styled.div`
   }
 
   a {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.2em;
     padding: 0.4em 0.5em;
-    margin: 5px;
+    margin: 5px 0;
+    font-size: 0.9rem;
     text-decoration: none;
     font-family: Arial, sans-serif;
     font-weight: 500;
     color: white;
     background-color: #182a3d;
     border: 1px solid white;
-
     border-radius: 5px;
     transition: background-color 0.3s ease;
     cursor: pointer;
-    display: flex;
-    align-items: center;
-    gap: 0.2em;
     text-align: center;
+    white-space: nowrap;
   }
 
   a:hover {
@@ -60,27 +66,32 @@ const Details = styled.div`
   }
 
   @media (max-width: 579px) {
-    div {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 0.5em;
-    }
     a {
       font-weight: 400;
-      padding: 0.2em 0.3em;
+      padding: 0.2em 0.4em;
       font-size: 14px;
     }
+
     h3 {
       font-size: 1rem;
     }
   }
 `;
 
-const StyledDescription = styled.div`
+const DescriptionWrapper = styled.div`
   width: 100%;
-  height: 210px;
+  min-height: 210px;
   display: flex;
   flex-direction: column;
+
+  @media (max-width: 579px) {
+    min-height: auto;
+  }
+
+  p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
 `;
 
 const StyledTech = styled.span`
@@ -93,9 +104,8 @@ const StyledTech = styled.span`
   text-align: center;
 
   @media (max-width: 579px) {
-    text-align: center;
-    padding: 0.3em 0.4em;
-    font-size: 0.8rem;
+    padding: 0.2em 0.3em;
+    font-size: 0.75rem;
   }
 `;
 
@@ -143,10 +153,10 @@ function Project({ project }) {
             </span>
           </a>
         </div>
-        <StyledDescription>
+        <DescriptionWrapper>
           <h3>{details}</h3>
           <p>{description}</p>
-        </StyledDescription>
+        </DescriptionWrapper>
 
         <div>
           <p>Tech stack:</p>
