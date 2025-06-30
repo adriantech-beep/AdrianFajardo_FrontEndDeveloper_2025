@@ -100,7 +100,7 @@ function Main() {
         <SocialGroup />
 
         <StyledCvLink
-          href="https://drive.google.com/file/d/1vc2pLV7KRYH3wc7iDBi6IE4YCdSPQLHG/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1Fqrntb0sOAMGV5hto9otTu3R2fanyewX/view?usp=drive_link"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Download Adrian Fajardo's Resume"
