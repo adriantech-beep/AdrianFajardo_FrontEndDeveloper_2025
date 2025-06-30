@@ -537,7 +537,7 @@ to {
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
       border-color 0.15s ease-in-out;
   }
-`;function e6(){const{homeRef:n,show:r}=Au();return w.jsx(Fv,{ref:n,children:w.jsxs(Wv,{children:[w.jsx(Pv,{children:w.jsx("img",{src:Yv})}),w.jsx("h1",{children:"Adrian Fajardo"}),w.jsx("p",{children:"Front-End Developer"}),w.jsx(Kv,{}),w.jsxs(Iv,{href:"https://drive.google.com/file/d/1vc2pLV7KRYH3wc7iDBi6IE4YCdSPQLHG/view?usp=drive_link",target:"_blank",rel:"noopener noreferrer","aria-label":"Download Adrian Fajardo's Resume",children:["Download CV",w.jsx("span",{children:w.jsx(Bv,{})})]}),r&&w.jsx($v,{})]})})}const t6=Zy`
+`;function e6(){const{homeRef:n,show:r}=Au();return w.jsx(Fv,{ref:n,children:w.jsxs(Wv,{children:[w.jsx(Pv,{children:w.jsx("img",{src:Yv})}),w.jsx("h1",{children:"Adrian Fajardo"}),w.jsx("p",{children:"Front-End Developer"}),w.jsx(Kv,{}),w.jsxs(Iv,{href:"https://drive.google.com/file/d/145bRxjYrGRpno3UGhwjHgNHLav2RvqUh/view?usp=drive_link",target:"_blank",rel:"noopener noreferrer","aria-label":"Download Adrian Fajardo's Resume",children:["Download CV",w.jsx("span",{children:w.jsx(Bv,{})})]}),r&&w.jsx($v,{})]})})}const t6=Zy`
   0% {
     transform: scale(0) rotate(0deg);
     opacity: 0;
